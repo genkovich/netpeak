@@ -1,0 +1,22 @@
+[Thu Dec 10 18:56:12.617983 2015] [:error] [pid 1364] [client 127.0.0.1:56984] PHP Parse error:  syntax error, unexpected '.' in /home/genkovich/www/test/application/controllers/parse.php on line 47
+[Thu Dec 10 18:56:12.618145 2015] [:error] [pid 1364] [client 127.0.0.1:56984] PHP Stack trace:
+[Thu Dec 10 18:56:12.618194 2015] [:error] [pid 1364] [client 127.0.0.1:56984] PHP   1. {main}() /home/genkovich/www/test/index.php:0
+[Thu Dec 10 18:56:12.618228 2015] [:error] [pid 1364] [client 127.0.0.1:56984] PHP   2. require_once() /home/genkovich/www/test/index.php:202
+[Thu Dec 10 20:13:38.515430 2015] [:error] [pid 1362] [client 127.0.0.1:57414] PHP Fatal error:  Call to a member function get() on a non-object in /home/genkovich/www/test/application/controllers/welcome.php on line 28
+[Thu Dec 10 20:13:38.519166 2015] [:error] [pid 1362] [client 127.0.0.1:57414] PHP Stack trace:
+[Thu Dec 10 20:13:38.519301 2015] [:error] [pid 1362] [client 127.0.0.1:57414] PHP   1. {main}() /home/genkovich/www/test/index.php:0
+[Thu Dec 10 20:13:38.519424 2015] [:error] [pid 1362] [client 127.0.0.1:57414] PHP   2. require_once() /home/genkovich/www/test/index.php:202
+[Thu Dec 10 20:13:38.519473 2015] [:error] [pid 1362] [client 127.0.0.1:57414] PHP   3. call_user_func_array() /home/genkovich/www/test/system/core/CodeIgniter.php:360
+[Thu Dec 10 20:13:38.519518 2015] [:error] [pid 1362] [client 127.0.0.1:57414] PHP   4. Welcome->index() /home/genkovich/www/test/system/core/CodeIgniter.php:360
+[Thu Dec 10 20:14:11.194865 2015] [:error] [pid 2549] [client 127.0.0.1:57416] PHP Fatal error:  Call to a member function get() on a non-object in /home/genkovich/www/test/application/controllers/welcome.php on line 28
+[Thu Dec 10 20:14:11.195016 2015] [:error] [pid 2549] [client 127.0.0.1:57416] PHP Stack trace:
+[Thu Dec 10 20:14:11.195078 2015] [:error] [pid 2549] [client 127.0.0.1:57416] PHP   1. {main}() /home/genkovich/www/test/index.php:0
+[Thu Dec 10 20:14:11.195118 2015] [:error] [pid 2549] [client 127.0.0.1:57416] PHP   2. require_once() /home/genkovich/www/test/index.php:202
+[Thu Dec 10 20:14:11.195158 2015] [:error] [pid 2549] [client 127.0.0.1:57416] PHP   3. call_user_func_array() /home/genkovich/www/test/system/core/CodeIgniter.php:360
+[Thu Dec 10 20:14:11.195200 2015] [:error] [pid 2549] [client 127.0.0.1:57416] PHP   4. Welcome->index() /home/genkovich/www/test/system/core/CodeIgniter.php:360
+[Thu Dec 10 20:17:25.565489 2015] [:error] [pid 3627] [client 127.0.0.1:57427] PHP Fatal error:  Call to a member function get() on a non-object in /home/genkovich/www/test/application/controllers/welcome.php on line 28
+[Thu Dec 10 20:17:25.565618 2015] [:error] [pid 3627] [client 127.0.0.1:57427] PHP Stack trace:
+[Thu Dec 10 20:17:25.565669 2015] [:error] [pid 3627] [client 127.0.0.1:57427] PHP   1. {main}() /home/genkovich/www/test/index.php:0
+[Thu Dec 10 20:17:25.565708 2015] [:error] [pid 3627] [client 127.0.0.1:57427] PHP   2. require_once() /home/genkovich/www/test/index.php:202
+[Thu Dec 10 20:17:25.565747 2015] [:error] [pid 3627] [client 127.0.0.1:57427] PHP   3. call_user_func_array() /home/genkovich/www/test/system/core/CodeIgniter.php:360
+[Thu Dec 10 20:17:25.565790 2015] [:error] [pid 3627] [client 127.0.0.1:57427] PHP   4. Welcome->index() /home/genkovich/www/test/system/core/CodeIgniter.php:360
